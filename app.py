@@ -41,14 +41,16 @@ def handle_message(event):
     msg = event.message.text
     r = '小勝勝我看不懂你說甚麼QQ'
 
-    if msg == 'hi':
+    if msg in ['hi','HI','Hi'] :
         r = 'hihi!小勝勝'
     elif msg =='你吃飯了嗎':
         r = '還沒>////<'
-        
+    elif msg == '我愛你'
+        r = '小勝勝我更愛你!!!'
+
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=s))
+        TextSendMessage(text=r))
 
 
 if __name__ == "__main__":
