@@ -45,7 +45,7 @@ def handle_message(event):
         r = 'hihi!小勝勝'
     elif msg =='你吃飯了嗎':
         r = '還沒>////<'
-    elif msg == '我愛你'
+    elif msg == '我愛你':
         r = '小勝勝我更愛你!!!'
 
     line_bot_api.reply_message(
