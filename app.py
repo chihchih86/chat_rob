@@ -57,7 +57,7 @@ def handle_message(event):
         r = '還沒>////<'
     elif msg == '我愛你':
         r = '我更愛你!!!'
-    elif ['什麼','甚麼'] in msg:
+    elif '什麼' in msg:
         r = '我在想你'
     elif '曼' in msg:
         r = '對阿曼很漂亮!'
