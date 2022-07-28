@@ -41,7 +41,7 @@ def handle_message(event):
     msg = event.message.text
     r = '我不太懂你在說甚麼，但是應該在誇獎曼很美吧^___^'
 
-    if '貼圖' in msg:
+    if '生氣' in msg:
         sticker_message = StickerSendMessage(
             package_id='2',
             sticker_id='23'
